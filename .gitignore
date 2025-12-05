@@ -1,0 +1,57 @@
+# Environment variables
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+frontend/.DS_Store
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# Docker
+docker-compose.override.yml
+
+# SSL Certificates
+certbot/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+backup.sql
